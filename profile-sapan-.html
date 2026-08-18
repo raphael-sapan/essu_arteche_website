@@ -3,194 +3,124 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Profile | ESSU-AEC</title>
-    <link rel="stylesheet" href="profile.css">
+    <title>Raphael Sapan - Professional Portfolio</title>
 </head>
-<body>
-<div class="container">
-    <!-- HEADER -->
-    <header>
-        <h1>Student Profile</h1>
-        <p>Eastern Samar State University - Arteche Extension Campus</p>
-    </header>
-    <!-- NAVIGATION -->
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #eef2f5; color: #2c3e50;">
+
+    <!-- Navigation Bar -->
+    <nav style="background-color: #ffffff; padding: 15px 0; text-align: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 100;">
+        <a href="#about" style="margin: 0 15px; text-decoration: none; color: #003366; font-weight: bold;">About</a>
+        <a href="#skills" style="margin: 0 15px; text-decoration: none; color: #003366; font-weight: bold;">Skills</a>
+        <a href="#projects" style="margin: 0 15px; text-decoration: none; color: #003366; font-weight: bold;">Projects</a>
+        <a href="#contact" style="margin: 0 15px; text-decoration: none; color: #003366; font-weight: bold;">Contact</a>
     </nav>
-    <!-- PROFILE CARD -->
-    <section class="profile-card">
-        <div class="profile-image">
-            <img src="./assets/images/irene.jpg"
-                 alt="Student Picture">
-        </div>
-        <div class="profile-details">
-            <h2>Personal Information</h2>
-            <table>
+
+    <!-- Header Section with Transparent Background Image Overlay -->
+<header id="about" style="
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/spiderman.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff;
+">
+    <div style="display: inline-block; background-color: #ffffff; padding: 6px; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.3);">
+        <img src="assets/rafa.png" alt="Raphael Sapan Profile Picture" width="140" height="160" style="object-fit: cover; border-radius: 4px; display: block;">
+    </div>
+    <h1 style="margin: 15px 0 5px 0; color: #ffffff; font-size: 2.4em; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">Raphael Sapan</h1>
+    <p style="margin: 0; font-size: 1.1em; color: #f0f0f0;"><i>BS IT Student | Aspiring Developer</i></p>
+    <p style="margin-top: 5px; font-size: 0.95em; color: #dddddd;">Brgy. Balud, Arteche, Eastern Samar | 21 Years Old</p>
+</header>
+
+    <!-- Main Content Container -->
+    <main style="max-width: 900px; margin: 30px auto; padding: 0 20px;">
+
+        <!-- Professional Summary Section -->
+        <section style="background-color: #ffffff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-bottom: 25px;">
+            <h2 style="color: #003366; border-bottom: 2px solid #003366; padding-bottom: 8px; margin-top: 0;">PROFESSIONAL SUMMARY</h2>
+            <p style="line-height: 1.6; text-align: justify;">
+                Raphael Sapan is an <b>Information Technology senior</b> dedicated to practical software architecture, database management systems, and web technologies. Experienced in system design methodologies, workflow modeling, and full-stack development concepts.
+            </p>
+            <p style="line-height: 1.6; text-align: justify;">
+                Currently focusing on <strong>IoT-based monitoring systems and web application development</strong> at Eastern Samar State University - Arteche Campus. Driven to deliver clean, scalable, and user-centered technical solutions.
+            </p>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" style="background-color: #ffffff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-bottom: 25px;">
+            <h2 style="color: #003366; border-bottom: 2px solid #003366; padding-bottom: 8px; margin-top: 0;">TECHNICAL SKILLS & COMPETENCIES</h2>
+            
+            <table border="0" cellpadding="10" cellspacing="0" style="width: 100%;">
                 <tr>
-                    <th>Full Name</th>
-                    <td>Arayan Irene Marie</td>
-                </tr>
-                <tr>
-                    <th>Student Number</th>
-                    <td>23-05081</td>
-                </tr>
-                <tr>
-                    <th>Program</th>
-                    <td>Bachelor of Science in Information Technology</td>
-                </tr>
-                <tr>
-                    <th>Year Level</th>
-                    <td>Fourth Year</td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td>arayanirene@gmail.com</td>
-                </tr>
-                <tr>
-                    <th>Address</th>
-                    <td>Brgy. Beri, Arteche, Eastern Samar</td>
+                    <td style="width: 50%; vertical-align: top;">
+                        <h3 style="margin-top: 0; color: #002244;">Core Fundamentals</h3>
+                        <ul style="line-height: 1.8; padding-left: 20px;">
+                            <li><b>HTML5 & CSS3:</b> Advanced Layouts & Styling</li>
+                            <li><b>JavaScript:</b> DOM Manipulation & Web Logic</li>
+                            <li><b>SQL / MySQL:</b> Relational Database Design & ERD</li>
+                            <li><b>Git & GitHub:</b> Version Control & Collaboration</li>
+                        </ul>
+                    </td>
+                    <td style="width: 50%; vertical-align: top;">
+                        <h3 style="margin-top: 0; color: #002244;">Specializations</h3>
+                        <ol style="line-height: 1.8; padding-left: 20px;">
+                            <li>System Analysis & Technical Diagramming</li>
+                            <li>IoT Sensors & Mobile App Architecture</li>
+                            <li>QGIS & Spatial Data Analysis</li>
+                            <li>Agile / Iterative SDLC Methodologies</li>
+                        </ol>
+                    </td>
                 </tr>
             </table>
-        </div>
-    </section>
-    <!-- CONTENT START -->
-    <div class="content">
-        <div class="left-column">
-            <!-- BIOGRAPHY CARD -->
-            <section class="card">
-                <h2>Biography</h2>
-                <p>
-                    Irene Marie Arayan is a fourth-year Bachelor of Science in
-                    Information Technology student at Eastern Samar State University –
-                    Arteche Extension Campus. She is passionate about web development,
-                    programming, database management, networking, and creating innovative
-                    technology solutions that can help the community.
-                </p>
-            </section>
- <!-- SKILLS -->
-            <section class="card">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Microsoft Office</li>
-                    <li>Problem Solving</li>
-                    <li>Networking</li>
-                </ul>
-            </section>
-            <!-- EDUCATIONAL BACKGROUND -->
-            <section class="card">
-                <h2>Educational Background</h2>
-                <ol>
-                    <li>Elementary</li>
-                    <li>Junior High School</li>
-                    <li>Senior High School</li>
-                    <li>College</li>
-                </ol>
-            </section>
-        </div>    
-        <!-- RIGHT COLUMN -->
-        <div class="right-column">
-            <!-- USEFUL LINKS -->
-            <section class="card">
-                <h2>Useful Links</h2>
-                <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="about.html"> About</a></li>
-                    <li><a href="academics.html"> Academics</a></li>
-                    <li><a href="contact.html"> Contact</a></li>
-                    <li><a href="https://www.google.com" target="_blank">
-                         Visit Google
-                    </a></li>
-                </ul>
-            </section>
-            <!-- CURRENT SUBJECTS -->
-            <section class="card">
-                <h2>Current Subjects</h2>
-                <table class="subject-table">
-                    <tr>
-                        <th>Course Code</th>
-                        <th>Description</th>
-                    </tr>
-                    <tr>
-                        <td>IT413</td>
-                        <td>Web Systems and Technologies</td>
-                    </tr>
-                    <tr>
-                        <td>IT411</td>
-                        <td>Capstone Project and Research 2</td>
-                    </tr>
-                    <tr>
-                        <td>IT414</td>
-                        <td>Data Visualization</td>
-                    </tr>
-                    <tr>
-                        <td>IT412</td>
-                        <td>Special Topics in Information Technology</td>
-                    </tr>
-                </table>
-            </section>  
-        </div>
-    </div>
-    <!-- CONTACT FORM -->
-    <section class="contact-card">
-        <h2>Contact the Student</h2>
-        <form>
-            <label>Full Name</label>
-            <input
-                type="text"
-                placeholder="Enter your full name">
-            <label>Email Address</label>
-            <input
-                type="email"
-                placeholder="Enter your email">
-            <label>Course</label>
-            <select>
-                <option>BSIT</option>
-                <option>BSEd</option>
-                <option>BEEd</option>
-                <option>BSHM</option>
-            </select>
-            <label>Gender</label>
-            <div class="radio-group">
-                <label><input type="radio" name="gender"> Male</label>
-                <label><input type="radio" name="gender"> Female</label>
+        </section>
+
+        <!-- Academic Projects Section -->
+        <section id="projects" style="background-color: #ffffff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-bottom: 25px;">
+            <h2 style="color: #003366; border-bottom: 2px solid #003366; padding-bottom: 8px; margin-top: 0;">ACADEMIC PROJECTS</h2>
+            
+            <!-- Project 1 Card -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #003366; padding: 15px; margin-bottom: 15px; border-radius: 0 6px 6px 0;">
+                <h3 style="margin: 0 0 5px 0; color: #002244;">IoT-Based Flood Monitoring & Early Warning System</h3>
+                <p style="margin: 0 0 10px 0; font-size: 0.85em; color: #666;"><i>Capstone Project | 2026</i></p>
+                <p style="margin: 0; line-height: 1.5;">Architected Level 1 Data Flow Diagrams, sensor integration workflows, and mobile application user interfaces for real-time risk alerts.</p>
             </div>
-            <label>Interests</label>
-            <div class="checkbox-group">
-                <label><input type="checkbox"> Programming</label>
-                <label><input type="checkbox"> Networking</label>
-                <label><input type="checkbox"> Multimedia</label>
+
+            <!-- Project 2 Card -->
+            <div style="background-color: #f8fafc; border-left: 4px solid #003366; padding: 15px; border-radius: 0 6px 6px 0;">
+                <h3 style="margin: 0 0 5px 0; color: #002244;">Automated Attendance Security Management System</h3>
+                <p style="margin: 0 0 10px 0; font-size: 0.85em; color: #666;"><i>Web Systems Activity | 2025</i></p>
+                <p style="margin: 0; line-height: 1.5;">Designed database schemas (ERD), user control access modules, and local database synchronization features using XAMPP stack.</p>
             </div>
-            <label>Message</label>
-            <textarea
-                rows="5"
-                placeholder="Write your message here"></textarea>
-            <button type="submit">
-                Submit
-            </button>
-        </form>
-    </section>
-    <!-- SCHOOL LOCATION -->
-    <section class="location">
-        <h2>School Location</h2>
-        <iframe
-            src="https://www.google.com/maps?q=Eastern+Samar+State+University+Arteche&output=embed"
-            allowfullscreen=""
-            loading="lazy">
-        </iframe>
-    </section>
-    <!-- FOOTER -->
-    <footer>
-        <p>&copy; 2026 Eastern Samar State University - Arteche Extension Campus</p>
-        <p>Created by Irene Marie Arayan</p>
-    </footer>
+        </section>
+
+        <!-- Location & Contact Section -->
+        <section id="contact" style="background-color: #ffffff; padding: 25px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.05); margin-bottom: 25px;">
+            <h2 style="color: #003366; border-bottom: 2px solid #003366; padding-bottom: 8px; margin-top: 0;">CAMPUS LOCATION & CONTACT</h2>
+            
+            <p><strong>Email:</strong> <a href="mailto:raphaelsapan7@gmail.com.com" style="color: #003366;">raphaelsapan7@gmail.com.com</a></p>
+            <p><strong>GitHub Repository:</strong> <a href="https://github.com/raphael-sapan/essu_arteche_website" target="_blank" style="color: #003366;">github.com/raphael-sapan/essu_arteche_website</a></p>
+            
+           <!-- Embedded Google Map for Arteche, Eastern Samar -->
+<div style="margin-top: 15px;">
+    <iframe 
+        src="https://maps.google.com/maps?q=Arteche%20Eastern%20Samar&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+        width="100%" 
+        height="200" 
+        style="border: 0; border-radius: 6px;" 
+        allowfullscreen="" 
+        loading="lazy">
+    </iframe>
 </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer style="background-color: #001f3f; color: #ffffff; text-align: center; padding: 15px 0; font-size: 0.85em;">
+        <p style="margin: 0;">&copy; 2026 Raphael Sapan. All rights reserved. | ESSU Arteche Web Systems Activity #2</p>
+    </footer>
+
 </body>
 </html>
+Compose
