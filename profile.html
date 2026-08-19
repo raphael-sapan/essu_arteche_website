@@ -3,194 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Student Profile | ESSU-AEC</title>
+    <title>Raphael Sapan - Professional Portfolio</title>
     <link rel="stylesheet" href="profile.css">
 </head>
 <body>
-<div class="container">
-    <!-- HEADER -->
-    <header>
-        <h1>Student Profile</h1>
-        <p>Eastern Samar State University - Arteche Extension Campus</p>
-    </header>
-    <!-- NAVIGATION -->
+
+    <!-- Navigation Bar -->
     <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="academics.html">Academics</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
     </nav>
-    <!-- PROFILE CARD -->
-    <section class="profile-card">
-        <div class="profile-image">
-            <img src="./assets/images/irene.jpg"
-                 alt="Student Picture">
+
+    <!-- Header Section with Transparent Background Image Overlay -->
+    <header id="about">
+        <div class="profile-img-container">
+            <img src="assets/rafa.png" alt="Raphael Sapan Profile Picture" width="140" height="160">
         </div>
-        <div class="profile-details">
-            <h2>Personal Information</h2>
-            <table>
+        <h1>Raphael Sapan</h1>
+        <p class="subtitle"><i>BS IT Student | Aspiring Developer</i></p>
+        <p class="location">Brgy. Balud, Arteche, Eastern Samar | 21 Years Old</p>
+    </header>
+
+    <!-- Main Content Container -->
+    <main>
+
+        <!-- Professional Summary Section -->
+        <section>
+            <h2>PROFESSIONAL SUMMARY</h2>
+            <p>
+                Raphael Sapan is an <b>Information Technology senior</b> dedicated to practical software architecture, database management systems, and web technologies. Experienced in system design methodologies, workflow modeling, and full-stack development concepts.
+            </p>
+            <p>
+                Currently focusing on <strong>IoT-based monitoring systems and web application development</strong> at Eastern Samar State University - Arteche Campus. Driven to deliver clean, scalable, and user-centered technical solutions.
+            </p>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills">
+            <h2>TECHNICAL SKILLS & COMPETENCIES</h2>
+            
+            <table class="skills-table" border="0" cellpadding="10" cellspacing="0">
                 <tr>
-                    <th>Full Name</th>
-                    <td>Arayan Irene Marie</td>
-                </tr>
-                <tr>
-                    <th>Student Number</th>
-                    <td>23-05081</td>
-                </tr>
-                <tr>
-                    <th>Program</th>
-                    <td>Bachelor of Science in Information Technology</td>
-                </tr>
-                <tr>
-                    <th>Year Level</th>
-                    <td>Fourth Year</td>
-                </tr>
-                <tr>
-                    <th>Email</th>
-                    <td>arayanirene@gmail.com</td>
-                </tr>
-                <tr>
-                    <th>Address</th>
-                    <td>Brgy. Beri, Arteche, Eastern Samar</td>
+                    <td>
+                        <h3>Core Fundamentals</h3>
+                        <ul>
+                            <li><b>HTML5 & CSS3:</b> Advanced Layouts & Styling</li>
+                            <li><b>JavaScript:</b> DOM Manipulation & Web Logic</li>
+                            <li><b>SQL / MySQL:</b> Relational Database Design & ERD</li>
+                            <li><b>Git & GitHub:</b> Version Control & Collaboration</li>
+                        </ul>
+                    </td>
+                    <td>
+                        <h3>Specializations</h3>
+                        <ol>
+                            <li>System Analysis & Technical Diagramming</li>
+                            <li>IoT Sensors & Mobile App Architecture</li>
+                            <li>QGIS & Spatial Data Analysis</li>
+                            <li>Agile / Iterative SDLC Methodologies</li>
+                        </ol>
+                    </td>
                 </tr>
             </table>
-        </div>
-    </section>
-    <!-- CONTENT START -->
-    <div class="content">
-        <div class="left-column">
-            <!-- BIOGRAPHY CARD -->
-            <section class="card">
-                <h2>Biography</h2>
-                <p>
-                    Irene Marie Arayan is a fourth-year Bachelor of Science in
-                    Information Technology student at Eastern Samar State University –
-                    Arteche Extension Campus. She is passionate about web development,
-                    programming, database management, networking, and creating innovative
-                    technology solutions that can help the community.
-                </p>
-            </section>
- <!-- SKILLS -->
-            <section class="card">
-                <h2>Skills</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Microsoft Office</li>
-                    <li>Problem Solving</li>
-                    <li>Networking</li>
-                </ul>
-            </section>
-            <!-- EDUCATIONAL BACKGROUND -->
-            <section class="card">
-                <h2>Educational Background</h2>
-                <ol>
-                    <li>Elementary</li>
-                    <li>Junior High School</li>
-                    <li>Senior High School</li>
-                    <li>College</li>
-                </ol>
-            </section>
-        </div>    
-        <!-- RIGHT COLUMN -->
-        <div class="right-column">
-            <!-- USEFUL LINKS -->
-            <section class="card">
-                <h2>Useful Links</h2>
-                <ul>
-                    <li><a href="index.html"> Home</a></li>
-                    <li><a href="about.html"> About</a></li>
-                    <li><a href="academics.html"> Academics</a></li>
-                    <li><a href="contact.html"> Contact</a></li>
-                    <li><a href="https://www.google.com" target="_blank">
-                         Visit Google
-                    </a></li>
-                </ul>
-            </section>
-            <!-- CURRENT SUBJECTS -->
-            <section class="card">
-                <h2>Current Subjects</h2>
-                <table class="subject-table">
-                    <tr>
-                        <th>Course Code</th>
-                        <th>Description</th>
-                    </tr>
-                    <tr>
-                        <td>IT413</td>
-                        <td>Web Systems and Technologies</td>
-                    </tr>
-                    <tr>
-                        <td>IT411</td>
-                        <td>Capstone Project and Research 2</td>
-                    </tr>
-                    <tr>
-                        <td>IT414</td>
-                        <td>Data Visualization</td>
-                    </tr>
-                    <tr>
-                        <td>IT412</td>
-                        <td>Special Topics in Information Technology</td>
-                    </tr>
-                </table>
-            </section>  
-        </div>
-    </div>
-    <!-- CONTACT FORM -->
-    <section class="contact-card">
-        <h2>Contact the Student</h2>
-        <form>
-            <label>Full Name</label>
-            <input
-                type="text"
-                placeholder="Enter your full name">
-            <label>Email Address</label>
-            <input
-                type="email"
-                placeholder="Enter your email">
-            <label>Course</label>
-            <select>
-                <option>BSIT</option>
-                <option>BSEd</option>
-                <option>BEEd</option>
-                <option>BSHM</option>
-            </select>
-            <label>Gender</label>
-            <div class="radio-group">
-                <label><input type="radio" name="gender"> Male</label>
-                <label><input type="radio" name="gender"> Female</label>
+        </section>
+
+        <!-- Academic Projects Section -->
+        <section id="projects">
+            <h2>ACADEMIC PROJECTS</h2>
+            
+            <!-- Project 1 Card -->
+            <div class="project-card">
+                <h3>IoT-Based Flood Monitoring & Early Warning System</h3>
+                <p class="project-meta"><i>Capstone Project | 2026</i></p>
+                <p class="project-desc">Architected Level 1 Data Flow Diagrams, sensor integration workflows, and mobile application user interfaces for real-time risk alerts.</p>
             </div>
-            <label>Interests</label>
-            <div class="checkbox-group">
-                <label><input type="checkbox"> Programming</label>
-                <label><input type="checkbox"> Networking</label>
-                <label><input type="checkbox"> Multimedia</label>
+
+            <!-- Project 2 Card -->
+            <div class="project-card">
+                <h3>Automated Attendance Security Management System</h3>
+                <p class="project-meta"><i>Web Systems Activity | 2025</i></p>
+                <p class="project-desc">Designed database schemas (ERD), user control access modules, and local database synchronization features using XAMPP stack.</p>
             </div>
-            <label>Message</label>
-            <textarea
-                rows="5"
-                placeholder="Write your message here"></textarea>
-            <button type="submit">
-                Submit
-            </button>
-        </form>
-    </section>
-    <!-- SCHOOL LOCATION -->
-    <section class="location">
-        <h2>School Location</h2>
-        <iframe
-            src="https://www.google.com/maps?q=Eastern+Samar+State+University+Arteche&output=embed"
-            allowfullscreen=""
-            loading="lazy">
-        </iframe>
-    </section>
-    <!-- FOOTER -->
+        </section>
+
+        <!-- Location & Contact Section -->
+        <section id="contact">
+            <h2>CAMPUS LOCATION & CONTACT</h2>
+            
+            <p><strong>Email:</strong> <a href="mailto:raphaelsapan7@gmail.com.com">raphaelsapan7@gmail.com.com</a></p>
+            <p><strong>Phone:</strong> +63 912 345 6789</p>
+            <p><strong>Address:</strong> Arteche, Eastern Samar</p>
+            <p><strong>GitHub Repository:</strong> <a href="https://github.com/raphael-sapan/essu_arteche_website" target="_blank">github.com/raphael-sapan/essu_arteche_website</a></p>
+            
+            <!-- Embedded Google Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://maps.google.com/maps?q=Arteche%20Eastern%20Samar&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                    width="100%" 
+                    height="200" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
     <footer>
-        <p>&copy; 2026 Eastern Samar State University - Arteche Extension Campus</p>
-        <p>Created by Irene Marie Arayan</p>
+        <p>&copy; 2026 Raphael Sapan. All rights reserved. | ESSU Arteche Web Systems Activity #3</p>
     </footer>
-</div>
+
 </body>
 </html>
+
+
+

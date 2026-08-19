@@ -1,0 +1,198 @@
+/* Enable Smooth Scrolling for Anchor Links (#about, #skills, #projects, etc.) */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Base Page Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #050607;
+    color: #2c3e50;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #000000;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #003366;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+/* Instant Hover Dark Blue Glow (No Transition) */
+nav a:hover {
+    color:#003366;
+    background-color: #e8e8e9;
+    box-shadow: 0 0 12px rgba(0, 31, 63, 0.9), 0 0 20px rgba(0, 51, 102, 0.8);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #f3f4f5;
+    font-weight: bold;
+    padding: 6px 12px;
+    border-radius: 4px;
+
+    /* CHANGE HOVER SPEED HERE */
+    transition: all 0.2s ease-in-out; 
+}
+
+/* Header Section */
+header#about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('assets/spiderman.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+header .profile-img-container {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 6px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+header .profile-img-container img {
+    object-fit: cover;
+    border-radius: 4px;
+    display: block;
+}
+
+header h1 {
+    margin: 15px 0 5px 0;
+    color: #ffffff;
+    font-size: 2.4em;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+header p.subtitle {
+    margin: 0;
+    font-size: 1.1em;
+    color: #f0f0f0;
+}
+
+header p.location {
+    margin-top: 5px;
+    font-size: 0.95em;
+    color: #dddddd;
+}
+
+/* Main Content Container */
+main {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* Shared Section Styling & Scroll Margin to prevent sticky navbar overlap */
+section {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    margin-bottom: 25px;
+    scroll-margin-top: 70px; /* Offset for sticky navbar */
+}
+
+section h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 8px;
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Technical Skills Table */
+.skills-table {
+    width: 100%;
+}
+
+.skills-table td {
+    width: 50%;
+    vertical-align: top;
+}
+
+.skills-table h3 {
+    margin-top: 0;
+    color: #002244;
+}
+
+.skills-table ul,
+.skills-table ol {
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+/* Academic Projects Cards */
+.project-card {
+    background-color: #f8fafc;
+    border-left: 4px solid #003366;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 0 6px 6px 0;
+}
+
+.project-card h3 {
+    margin: 0 0 5px 0;
+    color: #002244;
+}
+
+.project-card .project-meta {
+    margin: 0 0 10px 0;
+    font-size: 0.85em;
+    color: #666;
+}
+
+.project-card p.project-desc {
+    margin: 0;
+    line-height: 1.5;
+}
+
+/* Contact Links & Map */
+section#contact a {
+    color: #003366;
+}
+
+.map-container {
+    margin-top: 15px;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 6px;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #001f3f;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 0.85em;
+}
+
+footer p {
+    margin: 0;
+}
